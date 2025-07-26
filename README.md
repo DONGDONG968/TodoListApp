@@ -36,11 +36,13 @@ Kotlin과 RecyclerView를 활용하여 기본적인 CRUD 기능을 구현했습�
 
 ## 🧩 파일 구조
 
+``` 
 📦 TodoListApp
-┣ 📁 layout
-┃ ┣ 📄 activity_main.xml ← 메인 UI
-┃ ┗ 📄 item_todo.xml ← 각 할 일 아이템 UI
-┣ 📄 MainActivity.kt ← 앱 메인 로직
-┣ 📄 Todo.kt ← 데이터 클래스
-┣ 📄 TodoAdapter.kt ← RecyclerView Adapter
-┗ 📄 README.md ← 프로젝트 설명 문서
+ ┣ 📁 layout
+ ┃ ┣ 📄 activity_main.xml       ← 메인 UI
+ ┃ ┗ 📄 item_todo.xml           ← 각 할 일 아이템 UI
+ ┣ 📄 MainActivity.kt           ← 앱 메인 로직
+ ┣ 📄 Todo.kt                   ← 데이터 클래스
+ ┣ 📄 TodoAdapter.kt            ← RecyclerView Adapter
+ ┗ 📄 README.md                 ← 프로젝트 설명 문서
+```
